@@ -1,0 +1,30 @@
+nav {
+    background-color: gray
+}
+
+nav ul,
+nav li {
+    margin: 0;
+    padding: 0;
+}
+nav > ul {
+    display: flex;
+    gap: 10px
+    padding: 10px;
+}
+
+nav > ul > li {
+    list-style: none;
+    border: 1px red solid;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+nav > ul > li > ul {
+    display: none
+}
+
+nav > ul > li > ul {
+    display: block;
+}
